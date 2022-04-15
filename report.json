@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite errors="0" failures="0" tests="2" skipped="0" name=".home.hussam.hussma_only.nytimes.test.most_popular" timestamp="2022-04-15T15:03:55">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname=".home.hussam.hussma_only.nytimes.test.most_popular" name="fetch most popular articles fetch success" time="0.102"/>
+    <testcase classname=".home.hussam.hussma_only.nytimes.test.most_popular" name="fetch most popular articles should throw [DioError] server error" time="0.011"/>
+  </testsuite>
+  <testsuite errors="0" failures="0" tests="1" skipped="0" name=".home.hussam.hussma_only.nytimes.test.most_popular_bloc" timestamp="2022-04-15T15:03:55">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname=".home.hussam.hussma_only.nytimes.test.most_popular_bloc" name="Most popular bloc test should emit [Loading, Loaded] when [MostPopularStarted] is called" time="0.544"/>
+  </testsuite>
+</testsuites>

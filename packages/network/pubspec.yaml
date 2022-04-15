@@ -1,0 +1,25 @@
+name: network
+description: networking utils.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^4.0.6
+  core:
+    path: ../core
+  freezed_annotation: ^1.1.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  build_runner: ^2.1.8
+  freezed: ^1.1.1
