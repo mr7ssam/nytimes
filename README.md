@@ -78,6 +78,7 @@ ex: `melos format .`
 
 ### Notes:
 
-1. Test report saved in report.json file.
+1. Test report will saved in report.json file.
 2. You can find all scripts and run them from android studio or VS Code in **melos.yaml** file.
-3. Run this before run report test script `dart pub global activate junitreport` if  **junitreport** is note active.
+3. Run this before run any melos script `dart pub global activate melos` if  **melos** is note active.
+4. Run this before run report test script `dart pub global activate junitreport` if  **junitreport** is note active.
